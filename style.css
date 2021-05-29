@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
 body {
   margin: 0;
-  font-family: "Raleway";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.8em;
   display: flex;
@@ -16,21 +17,15 @@ body {
 .container {
   max-width: 1024px;
   background-color: rgba(171, 200, 207, 0.7);
-  float: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
   width: 13rem;
-  display: block;
   padding-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 50%;
-}
-
-section {
-  margin-left: 1em;
 }
 
 h1 {
@@ -39,37 +34,32 @@ h1 {
 }
 
 h2 {
+  padding-left: 1em;
   font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* p {
-  display: block;
+li {
+  margin: 0.5em 1em auto;
+}
 
-} */
+li a {
+  margin-top: 2em;
+}
 
 footer {
-  padding: 1em 1.5em;
+  width: 100%;
   background: #494949;
   color: white;
   text-align: left;
-  display: block;
-}
-
-footer h4 {
-  font-size: 2em;
 }
 
 .open-certificate {
   background-color: #69acac;
   box-shadow: 0 5px 0 #2f4f4f;
   color: white;
-  padding: 0.09em 0.1em;
+  padding: 0.09em 1em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -86,4 +76,9 @@ footer h4 {
 
 .contact-links {
   color: white;
+  text-decoration: none;
+}
+
+.contact-links:hover {
+  border-bottom: 2px solid white;
 }
