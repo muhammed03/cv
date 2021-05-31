@@ -22,15 +22,15 @@ body {
   align-items: center;
 }
 
-img {
-  width: 13rem;
+/* img {
+  width: 9rem;
   padding-top: 20px;
   border-radius: 50%;
-}
+} */
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 3.1em;
 }
 
 h2 {
@@ -81,4 +81,8 @@ footer {
 
 .contact-links:hover {
   border-bottom: 2px solid white;
+}
+
+.start {
+  display: flex;
 }
